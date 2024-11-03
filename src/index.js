@@ -97,8 +97,6 @@ app.post('/login', async (req,res) => {
 })
 
 
-
-
 //ruta de nuestro servidor local
 app.listen(port,() =>{
     console.log('El servidor esta conectado http://localhost:5000');
